@@ -1,0 +1,1 @@
+if global.zoom > 1 global.zoom--;
