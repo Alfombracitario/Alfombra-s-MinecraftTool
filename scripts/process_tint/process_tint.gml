@@ -8,7 +8,7 @@ function process_tint(file)
         // Leer la línea actual
         var line = file_text_readln(file);
 
-        // Separar los valores por comas
+        // Separar los valores por comas, cómo soy medio weón no supe cómo poner \n
         var values = string_split(line, ","); //array con cada valor
 
 		//aquí va el código para renderizar
@@ -19,24 +19,25 @@ function process_tint(file)
 		room_width = sprite_width;
 		image_index = global.texture[0]
 		sprite = global.texturebase[0]
-		//esto se debería ejecutar por frames separados
+		
+		//esto se debería ejecutar por frames separados solo por si acaso
 		switch(image)
 		{
 			case 0:
 			if(values[3] != "NULL"){
-			save_screenshot("potion_bottle_"+string(values[3])+".png")
+			save_image("potion_bottle_"+string(values[3])+".png")
 			}break;
 			
 			case 1:
 			if(values[4] != "NULL"){
 			image_index = global.texture[1]
-			save_screenshot("potion_bottle_splash_"+string(values[4])+".png")
+			save_image("potion_bottle_splash_"+string(values[4])+".png")
 			}break;
 			
 			case 2:
 			if(values[5] != "NULL"){
 			image_index = global.texture[2]
-			save_screenshot("potion_bottle_lingering_"+string(values[5])+".png")
+			save_image("potion_bottle_lingering_"+string(values[5])+".png")
 			}break;
 		
 			//flechas
@@ -44,7 +45,7 @@ function process_tint(file)
 			if(values[6] != "NULL"){
 			sprite = global.texturebase[1];
 			image_index = global.texture[3]
-			save_screenshot("tipped_arrow_"+string(values[6])+".png")
+			save_image("tipped_arrow_"+string(values[6])+".png")
 			}break;
 		}
     }

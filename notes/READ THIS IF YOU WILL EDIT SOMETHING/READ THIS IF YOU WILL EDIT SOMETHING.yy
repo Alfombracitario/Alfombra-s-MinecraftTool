@@ -1,7 +1,7 @@
 {
   "$GMNotes":"",
-  "%Name":"READ THIS",
-  "name":"READ THIS",
+  "%Name":"READ THIS IF YOU WILL EDIT SOMETHING",
+  "name":"READ THIS IF YOU WILL EDIT SOMETHING",
   "parent":{
     "name":"Alfombra's MinecraftTool",
     "path":"Alfombra's MinecraftTool.yyp",

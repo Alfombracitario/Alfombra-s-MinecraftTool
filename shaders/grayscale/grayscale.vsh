@@ -17,3 +17,5 @@ void main()
     v_vColour = in_Colour;
     v_vTexcoord = in_TextureCoord;
 }
+
+//este shader ni sé si sirve o no a este punto, lo hice hace mucho para probar algo

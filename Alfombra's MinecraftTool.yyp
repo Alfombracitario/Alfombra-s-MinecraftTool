@@ -18,6 +18,10 @@
     {"$GMFolder":"","%Name":"tinted images renderer","folderPath":"folders/tinted images renderer.yy","name":"tinted images renderer","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"Concrete_powder.csv","CopyToMask":-1,"filePath":"datafiles/other","name":"Concrete_powder.csv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"glass_pane_top.csv","CopyToMask":-1,"filePath":"datafiles/other","name":"glass_pane_top.csv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"grass_colors.csv","CopyToMask":-1,"filePath":"datafiles/other","name":"grass_colors.csv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"tinted_glass.csv","CopyToMask":-1,"filePath":"datafiles/other","name":"tinted_glass.csv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"potion_table.csv","CopyToMask":-1,"filePath":"datafiles","name":"potion_table.csv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
@@ -27,7 +31,7 @@
   },
   "name":"Alfombra's MinecraftTool",
   "resources":[
-    {"id":{"name":"READ THIS","path":"notes/READ THIS/READ THIS.yy",},},
+    {"id":{"name":"READ THIS IF YOU WILL EDIT SOMETHING","path":"notes/READ THIS IF YOU WILL EDIT SOMETHING/READ THIS IF YOU WILL EDIT SOMETHING.yy",},},
     {"id":{"name":"backtotitle","path":"objects/backtotitle/backtotitle.yy",},},
     {"id":{"name":"buttonimgloader2","path":"objects/buttonimgloader2/buttonimgloader2.yy",},},
     {"id":{"name":"buttonmodeother","path":"objects/buttonmodeother/buttonmodeother.yy",},},

@@ -13,8 +13,8 @@ function save_image(fname) {
     surface_reset_target();
 
     // Guardar la superficie como un archivo .png
-    surface_save(screen_surf,program_directory+"items/"+fname);
-    // Limpiar la superficie cuando ya no la necesites
+    surface_save(screen_surf,working_directory+"items/"+fname);
+	
     surface_free(screen_surf);
 
 }

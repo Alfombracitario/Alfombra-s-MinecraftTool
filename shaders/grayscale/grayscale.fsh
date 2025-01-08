@@ -9,3 +9,5 @@ void main()
     // Intercambiar el canal rojo con el azul
     gl_FragColor = vec4(color.r, color.r, color.r, color.a) * v_vColour;
 }
+
+//este shader ni sé si sirve o no a este punto, lo hice hace mucho para probar algo

@@ -9,7 +9,7 @@ line = 0;
 var f = get_open_filename("colors table (*.csv)|*.csv", "colors table.csv");
 file = file_text_open_read(f)
 
-save_folder = "";
+save_folder = working_directory;
 
 // Leer y omitir la primera línea (encabezado)
 file_text_readln(file);

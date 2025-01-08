@@ -9,6 +9,6 @@ draw_self();  // Dibujar la instancia actual
 
 surface_reset_target();
 
-surface_save(screen_surf,save_folder + "other/" + imgname);
+surface_save(screen_surf,save_folder + "other images/" + imgname);
 
 surface_free(screen_surf);

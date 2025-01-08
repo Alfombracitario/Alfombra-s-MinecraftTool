@@ -2,3 +2,5 @@ If for some reason you are reading this, it is because you have the source code.
 I will only say that this is a program that I did in a hurry and I did not think about publishing,
 it so the code is a mess.
 If today I redid everything from scratch it would be much more efficient and faster lol
+
+you are free to add new features.
