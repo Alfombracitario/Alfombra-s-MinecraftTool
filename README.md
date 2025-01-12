@@ -24,7 +24,7 @@ the second line onwards will be processed so make sure you enter correct data
 Data must be separated by commas (",")
 
 For reading reasons, the end of each line must also have a comma, or else the last value will be read as 
-```value\n"```
+```"value\n"```
 
 Also if you use "render potions" I recommend that the files have the following names:
 
