@@ -14,7 +14,7 @@ if (file != "")
     draw_clear_alpha(c_black, 0);
 
     // Iterar a través de las imágenes
-    for (var i = 0; i < array_length(global.texturebase); i++) {
+    for (var i = array_length(global.texturebase) - 1; i >= 0; i--) {
         if (global.grayscale[i] == 1) {
             // Aplicar el shader de escala de grises según el tipo
             switch (global.grayscaletype) {
@@ -32,8 +32,7 @@ if (file != "")
             draw_sprite(global.texturebase[i], 0, 0, 0);
             shader_reset(); // Restablecer el shader después de dibujar
         } else {
-            // Dibujar la imagen con transparencia mínima (1/255)
-            draw_sprite_ext(global.texturebase[i], 0, 0, 0, 1, 1, 0, c_white, 1 / 255);
+            draw_sprite_ext(global.texturebase[i], 0, 0, 0, 1, 1, 0, c_white, 0.5);
         }
     }
 
