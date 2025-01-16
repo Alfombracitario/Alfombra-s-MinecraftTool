@@ -1,0 +1,1 @@
+if global.grayscaletype < 2 global.grayscaletype++ else global.grayscaletype = 0;

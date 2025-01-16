@@ -1,0 +1,1 @@
+global.grayscale = array_create(2,0);

@@ -1,0 +1,1 @@
+global.grayscale[i] = !global.grayscale[i];

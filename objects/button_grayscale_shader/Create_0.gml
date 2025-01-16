@@ -1,0 +1,1 @@
+global.grayscaletype = 0;

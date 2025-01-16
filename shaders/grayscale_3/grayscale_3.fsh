@@ -6,6 +6,5 @@ void main()
     // Obtener el color del fragmento actual
     vec4 color = texture2D(gm_BaseTexture, v_vTexcoord);
 
-    // Intercambiar el canal rojo con el azul
-    gl_FragColor = vec4(color.r, color.r, color.r, color.a) * v_vColour;
+    gl_FragColor = vec4(color.b, color.b, color.b, color.a) * v_vColour;
 }
