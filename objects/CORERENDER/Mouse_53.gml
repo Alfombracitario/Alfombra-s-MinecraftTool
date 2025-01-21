@@ -24,7 +24,7 @@ if(mouse_x < room_width*0.5)
 	    gside = sprite_add(file_side, 1,0,0,0,0); // Cargar imagen seleccionada
 	    if (gside == -1) {
 	        // Si la imagen no se pudo cargar, cargar imagen interna
-	        gside = sprite_add("side.png", 1,0,0,0,0);
+	        gside = side
 	    }
 	} else {
 	    // Si no se seleccionó ninguna imagen, cargar imagen interna
@@ -40,7 +40,7 @@ else
 	    gside2 = sprite_add(file_side2, 1,0,0,0,0); // Cargar imagen seleccionada
 		if (gside2 == -1) {
 			// Si la imagen no se pudo cargar, cargar imagen interna
-			gside2 = sprite_add("side.png", 1,0,0,0,0);
+			gside2 = side
 		}
 	} else {
 	 // Si no se seleccionó ninguna imagen, cargar imagen interna

@@ -25,7 +25,7 @@ imgname =  "";
 line = 0;
 
 // Abrir archivo CSV
-var f = get_open_filename("potions table csv file (*.csv)|*.csv", "potion table.csv");
+var f = get_open_filename("potions table files (*.csv;*.txt)|*.csv;*.txt", "potion table.csv");
 file = file_text_open_read(f)
 
 // Leer y omitir la primera línea (encabezado)

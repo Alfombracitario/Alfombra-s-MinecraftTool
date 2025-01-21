@@ -10,7 +10,7 @@ imgname =  "";
 line = 0;
 
 // Abrir archivo CSV
-var f = get_open_filename("colors table (*.csv)|*.csv", "colors table.csv");
+var f = get_open_filename("colors table (*.csv;*.txt)|*.csv;*.txt", "colors table.csv");
 file = file_text_open_read(f)
 
 save_folder = working_directory;
