@@ -1,20 +1,20 @@
 var texture = get_open_filename("potion overlay (*.png)|*.png", "potion_overlay.png");
-global.texturebase[0] = sprite_add(texture,0,0,0,0,0)
+global.texturebasepotionoverlay = sprite_add(texture,0,0,0,0,0)
 
 texture = get_open_filename("potion bottle empty (*.png)|*.png", "potion_bottle_empty.png");
-global.texture[0] = sprite_add(texture,0,0,0,0,0);
+global.texturepotion = sprite_add(texture,0,0,0,0,0);
 
 texture = get_open_filename("potion splash empty (*.png)|*.png", "potion_splash_empty.png");
-global.texture[1] = sprite_add(texture,0,0,0,0,0);
+global.texturesplash = sprite_add(texture,0,0,0,0,0);
 
 texture = get_open_filename("potion lingering empty  (*.png)|*.png", "potion_lingering_empty.png");
-global.texture[2] = sprite_add(texture,0,0,0,0,0);
+global.texturelingering = sprite_add(texture,0,0,0,0,0);
 
 texture = get_open_filename("tipped arrow base (*.png|*.png", "tipped_arrow_base.png");
-global.texture[3] = sprite_add(texture,0,0,0,0,0)
+global.texturearrowbase = sprite_add(texture,0,0,0,0,0)
 
 texture = get_open_filename("tipped arrow overlay  (*.png)|*.png", "tipped_arrow_overlay.png");
-global.texturebase[1] = sprite_add(texture,0,0,0,0,0)
+global.texturebasearrowhead = sprite_add(texture,0,0,0,0,0)
 
 sprite = 0;
 

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"c_copy",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"c_copy",
+  "parent":{
+    "name":"scripts",
+    "path":"folders/scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

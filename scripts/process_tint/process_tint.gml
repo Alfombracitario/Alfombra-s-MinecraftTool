@@ -52,4 +52,5 @@ function process_tint(file)
 
     // Cerrar el archivo
     file_text_close(file);
+	game_end();
 }

@@ -1,20 +1,15 @@
 function save_image(fname) {
-    // Crear una superficie con el tamaño de la pantalla
+	draw_clear_alpha(c_black, 0);
     var screen_surf = surface_create(sprite_width, sprite_width);
 
-    // Establecer la superficie como el target de dibujo
     surface_set_target(screen_surf);
 
-    // Dibujar todo lo que se ve en la pantalla (el contenido actual)
-    draw_self();  // Dibujar la instancia actual
-	draw_sprite(sprite,0,x,y);
-
-    // Restaurar el target de dibujo al backbuffer (pantalla)
+    draw_sprite_ext(spritei,0,0,0,1,1,0,image_blend,1);
+	draw_sprite(sprite,0,0,0);
+	
     surface_reset_target();
 
-    // Guardar la superficie como un archivo .png
-    surface_save(screen_surf,working_directory+"items/"+fname);
-	
+    surface_save(screen_surf,working_directory+"output/items/"+fname);
     surface_free(screen_surf);
-
+	screen_surf = -1;
 }
