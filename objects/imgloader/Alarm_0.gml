@@ -75,7 +75,7 @@ switch (image) {
 			case 4:
         if (!file_text_eof(file)) {
             line = file_text_readln(file);
-            values = string_split(line, ","); // array con los valores
+            values = string_split(line, ",");
 			} else {
 				file_text_close(file); // Cierra el archivo al finalizar
 				alarm_set(2, 1); // Llama a la alarma 2 porque ya no hay líneas

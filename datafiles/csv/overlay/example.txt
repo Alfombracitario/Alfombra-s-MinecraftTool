@@ -1,3 +1,0 @@
-Base color,Overlay color,Image name,
-ffffff,000000,example,
-ff0000,00ffff,example2,

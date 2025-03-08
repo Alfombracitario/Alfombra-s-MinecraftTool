@@ -15,7 +15,7 @@ function hex_to_dec(hex_string) {
         } else if (digit >= "A" && digit <= "F") {
             digit = ord(digit) - ord("A") + 10; // Convertir caracteres 'A'-'F' a su valor numérico
         } else {
-            show_error("Entrada no válida en hex_to_dec: " + hex_string, true);
+            show_error("Unvalid HEX value: " + hex_string, true);
         }
         
         result += digit * power(16, i); // Sumar el valor de la posición actual al total
