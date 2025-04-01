@@ -57,8 +57,8 @@ switch (image) {
             case 3:
                 if (values[6] != "NULL") {
 					image_blend = makecolorfromhex(values[0 + global.moderncolors]);
-                    sprite_index = global.texturebasearrowhead;
-                    sprite = global.texturearrowbase;
+                    sprite_index =  global.texturearrowbase;
+                    sprite = global.texturebasearrowhead;
 					apply_size();
 					alarm_set(1,1);
 					if (values[6] != "NO_SUFFIX")
